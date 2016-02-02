@@ -18,7 +18,7 @@ import org.w3c.dom.Node;
 public class QuakeParser {
 
     public void parseXmlFile(){
-        System.out.println("Hello");
+        System.out.println("fix branch");
         String fileName = "oneEarthQuake.xml";
         //get the factory
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
