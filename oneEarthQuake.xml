@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry>
+	<id>urn:earthquake-usgs-gov:ci:37275487</id>
+	<title>M 0.3 - 2km SE of Anza, California</title>
+	<updated>2015-11-21T03:14:35.689Z</updated><link rel="alternate" type="text/html" href="http://earthquake.usgs.gov/earthquakes/eventpage/ci37275"/>
+	<summary type="html"><![CDATA[<dl><dt>Time</dt><dd>2015-11-21 03:10:42 UTC</dd><dd>2015-11-20 19:10:42 -08:00 at epicenter</dd><dt>Location</dt><dd>33.542&deg;N 116.662&deg;W</dd><dt>Depth</dt><dd>10.41 km (6.47 mi)</dd></dl>]]></summary>
+	<georss:point>33.542 -116.6618333</georss:point>
+	<georss:elev>-10410</georss:elev>
+	<category label="Age" term="Past Day"/>
+	<category label="Magnitude" term="Magnitude 0"/>
+</entry>

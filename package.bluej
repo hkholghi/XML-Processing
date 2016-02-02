@@ -1,0 +1,25 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=792
+package.editor.height=453
+package.editor.width=694
+package.editor.x=-6
+package.editor.y=274
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=US-ASCII
+target1.editor.height=919
+target1.editor.width=782
+target1.editor.x=385
+target1.editor.y=120
+target1.height=50
+target1.name=QuakeParser
+target1.naviview.expanded=false
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=100
+target1.x=170
+target1.y=10
