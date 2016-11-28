@@ -18,7 +18,7 @@ import org.w3c.dom.Node;
 public class QuakeParser {
 
     public void parseXmlFile(){
-        System.out.println("Hello");
+        System.out.println("fix branch");
         String fileName = "oneEarthQuake.xml";
         //get the factory
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -45,12 +45,11 @@ public class QuakeParser {
                         String s1 = t1.item(0).getTextContent();
                         NodeList t2 = elem.getElementsByTagName("georss:point");
                         String s2 = t2.item(0).getChildNodes().item(0).getNodeValue();
-                        NodeList t3 = elem.getElementsByTagName("categor");
-                        t3.item(0).getChildNodes().item(0).getAttributes().getNamedItem("label");
-                        System.out.println(t3.item(0));
-                        String s3 = t3.item(0).getTextContent();
+                        NodeList cList = dom.getElementsByTagName("category");
+                        String s3 = cList.item(1).getAttributes().getNamedItem("label").getTextContent();                                               
+                        System.out.print(s1 + "   " + s2 +"   " + s3);
 
-                        System.out.print(s1 + "\n" + s2 +"\n" + s3);
+                        System.out.print(s1 + "  " + s2 + "  " + s3);
                     }
                     System.out.println();
                 }
